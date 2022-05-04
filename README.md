@@ -29,5 +29,7 @@ You should be familiar with:
    .  Familiarity with the Azure Portal is helpful but not required
    .  A basic understanding of SQL is helpful but not required
 
-video(recorded with zoom and uploaded to google drive) : 
+Walthrough(recorded with zoom and uploaded to google drive) : 
     https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%221AVBvZgsQOwx59vWcVSu6W4dL9UhmuHxE%22%5D,%22action%22:%22open%22,%22userId%22:%22104969327623118646369%22,%22resourceKeys%22:%7B%7D%7D
+
+    Site : https://cloudacademy.com/lab/run-your-first-sql-queries/starting-and-connecting-sql-server-instance/?context_id=927&context_resource=lp
