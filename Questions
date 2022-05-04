@@ -1,0 +1,51 @@
+Introduction
+    Microsoft SQL Server is Microsoft's relational database management system (RDBMS) It uses structured query language (SQL) syntax, as do MySQL, MariaDB and other SQL-based database languages. Many people use different varieties of SQL because it allows them to easily and clearly define relationships between sets of data and lends itself well to data visualization since SQL data organizes neatly into rows and columns. Many people use Microsoft's SQL Server solution in particular because it integrates highlights of SQL with the capabilities Microsoft has to offer and integrates with many Microsoft Azure services.
+
+    SQL Server Management Studio (SSMS) is Microsoft's software solution designed to manage and interact with SQL Server components.
+
+    In this Lab Step, you will start a SQL Server instance and connect to it using SSMS.
+
+ 
+
+Instructions
+
+    1. Wait until the lab progress reaches 100% and click Open Remote Desktop to open the lab virtual machine connection in a new browser tab.
+
+    It takes approximately 2 minutes for the setup to complete and another 2 minutes for the virtual machine to finish booting so the connection can be established. The connection is automatically retried every 15 seconds until a connection can be established.
+
+    You may need to allow access to your clipboard if you attempt to paste anything from outside of the connection.
+
+
+
+    Note: If you recently used other Remote Desktop labs, you may need to Logout in the new browser tab that opens and click Open Remote Desktop to open the intended connection.
+
+    
+
+    2. In your RDP session, click the alt icon at the bottom left, type SSMS, and click Microsoft SQL Server Management Studio 18.
+
+
+    Notie: It takes a couple of minutes for the studio to load.
+
+    
+
+    3. In the Connect To Server window that opens, make sure Server name is set to ca-lab-vm\SQLEXPRESS and click Connect
+
+
+    Note: If Server name isn't set to ca-lab-vm\SQLEXPRESS, click the down arrow to the right of Server name and then click Browse for more.
+
+
+    Click + to the left of Database Engine to expand it and then click ca-lab-vm\SQLEXPRESS.
+
+
+Finally, click Ok.
+
+    Notice that Authentication is set to Windows Authentication. This means that SSMS will attempt to log in to the SQL Server using your local user, which is student. Since you are an administrative user and are currently logged into a Windows session, SSMS will not require a password and should automatically connect you, opening an Object Explorer window to the left.
+
+
+
+You will explore more which the Object Explorer has to offer in a future Lab Step, but for now suffice to say that if you see this window, it means SSMS has successfully connected to the SQL Server instance.
+
+ 
+
+Summary
+    In this Lab Step, you learned more about Microsoft SQL Server and SQL Server Management Studio. You then started a SQL Server instance and connected to it. In future Lab Steps you will interact with SQL Server in more depth
